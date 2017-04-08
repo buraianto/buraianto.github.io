@@ -1622,7 +1622,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: #3b3a36;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1639,10 +1639,9 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 16.5pt;
-		font-weight: normal;
+		color: #e9ece5;
+		font-family: 'Lora', serif;
+		font-size: 15pt;
 		line-height: 1.75;
 	}
 
@@ -1671,11 +1670,11 @@
 		}
 
 	a {
-		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		-moz-transition: color 0.15s ease, border-bottom-color 0.15s ease;
+		-webkit-transition: color 0.15s ease, border-bottom-color 0.15s ease;
+		-ms-transition: color 0.15s ease, border-bottom-color 0.15s ease;
+		transition: color 0.15s ease, border-bottom-color 0.15s ease;
+		border-bottom: dotted 1px rgba(255, 255, 255, 1);
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1700,9 +1699,12 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: bold;
+        font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
 		line-height: 1.5;
-		margin: 0 0 0.5em 0;
+		margin: 0 0 0.25em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1711,7 +1713,7 @@
 		}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 4.75em;
 	}
 
 		h1.major {
@@ -1725,10 +1727,10 @@
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: linear-gradient(to right, #5e42a6, #b74e91);
-				-moz-transition: max-width 0.2s ease;
-				-webkit-transition: max-width 0.2s ease;
-				-ms-transition: max-width 0.2s ease;
-				transition: max-width 0.2s ease;
+				-moz-transition: max-width 0.15s ease;
+				-webkit-transition: max-width 0.15s ease;
+				-ms-transition: max-width 0.15s ease;
+				transition: max-width 0.15s ease;
 				border-radius: 0.2em;
 				bottom: 0;
 				content: '';
@@ -1739,11 +1741,11 @@
 			}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 2.0em;
 	}
 
 	h3 {
-		font-size: 1.1em;
+		font-size: 1.25em;
 	}
 
 	h4 {
@@ -1889,18 +1891,18 @@
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		border-color: rgba(255, 255, 255, 0.5) !important;
 		border-radius: 3em;
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.6em;
-		font-weight: bold;
+		font-size: 0.7em;
+		font-weight: 700;
 		height: calc(4.75em + 2px);
 		letter-spacing: 0.25em;
 		line-height: 4.75em;
 		outline: 0;
-		padding: 0 3.75em;
+		padding: 0 3.5em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
@@ -2009,7 +2011,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: rgba(255, 255, 255, 0.5) !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -2017,7 +2019,7 @@
 			input[type="button"]:hover:after,
 			button:hover:after,
 			.button:hover:after {
-				opacity: 0.05;
+				opacity: 0.25;
 				-moz-transform: scale(1);
 				-webkit-transform: scale(1);
 				-ms-transform: scale(1);
@@ -2567,7 +2569,7 @@
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #e9ece5;
 				}
 
 				.wrapper.style2 .icon.major:before {
@@ -2575,7 +2577,7 @@
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #e9ece5;
 				}
 
 				.wrapper.style3 .icon.major:before {
@@ -2583,7 +2585,7 @@
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #e9ece5;
 				}
 
 /* Image */
@@ -3249,31 +3251,31 @@
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #e3e0cf;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #9fa8a3;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #e9ece5;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #e9ece5;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #e9ece5;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #3b3a36;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #e3e0cf;
 		}
 
 		.wrapper.fullscreen {
@@ -3534,14 +3536,17 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+        border-style: solid;
+        border-color: #fff;
+        border-width: 1em;
+		background: #9fa8a3;
 		cursor: default;
 		height: 100vh;
 		left: 0;
 		overflow-x: hidden;
 		overflow-y: auto;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
 		width: 18em;
 		z-index: 10000;
@@ -3587,12 +3592,12 @@
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-				-moz-transition: opacity 0.15s ease, -moz-transform 0.75s ease;
-				-webkit-transition: opacity 0.15s ease, -webkit-transform 0.75s ease;
-				-ms-transition: opacity 0.15s ease, -ms-transform 0.75s ease;
-				transition: opacity 0.15s ease, transform 0.75s ease;
+				-moz-transition: opacity 0.15s ease, -moz-transform 0.5s ease;
+				-webkit-transition: opacity 0.15s ease, -webkit-transform 0.5s ease;
+				-ms-transition: opacity 0.15s ease, -ms-transform 0.5s ease;
+				transition: opacity 0.15s ease, transform 0.5s ease;
 				margin: 1.5em 0 0 0;
-				opacity: 1;
+				opacity: 0.8;
 				padding: 0;
 				position: relative;
 			}
@@ -3742,19 +3747,19 @@
 				}
 
 		#sidebar nav a {
-			-moz-transition: color 0.2s ease;
-			-webkit-transition: color 0.2s ease;
-			-ms-transition: color 0.2s ease;
-			transition: color 0.2s ease;
+			-moz-transition: color 0.4s ease;
+			-webkit-transition: color 0.4s ease;
+			-ms-transition: color 0.4s ease;
+			transition: color 0.4s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 1);
 			display: block;
-			font-size: 0.6em;
-			font-weight: bold;
-			letter-spacing: 0.25em;
-			line-height: 1.75;
-			outline: 0;
-			padding: 1.35em 0;
+            font-family: 'Source Sans Pro', serif;
+			font-size: 1em;
+			font-weight: 300;
+			letter-spacing: 0.15em;
+			line-height: 1.5;
+			padding: 1em 0;
 			position: relative;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -3771,27 +3776,28 @@
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #fff;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
-				-moz-transition: max-width 0.2s ease;
-				-webkit-transition: max-width 0.2s ease;
-				-ms-transition: max-width 0.2s ease;
-				transition: max-width 0.2s ease;
+				background-image: -moz-linear-gradient(to right, #c5d5cb, #e9ece5);
+				background-image: -webkit-linear-gradient(to right, #c5d5cb, #e9ece5);
+				background-image: -ms-linear-gradient(to right, #c5d5cb, #e9ece5);
+				background-image: linear-gradient(to right, #c5d5cb, #e9ece5);
+				-moz-transition: max-width 0.8s ease;
+				-webkit-transition: max-width 0.8s ease;
+				-ms-transition: max-width 0.8s ease;
+				transition: max-width 0.8s ease;
 				max-width: 0;
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+                color: #c5d5cb;
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+                font-weight: 900;
+				color: #c5d5cb;
 			}
 
 				#sidebar nav a.active:after {
@@ -3813,9 +3819,10 @@
 		@media screen and (max-width: 1280px) {
 
 			#sidebar {
-				height: 3.5em;
+				height: 4em;
 				left: 0;
-				line-height: 3.5em;
+                border-width: 0.75em;
+				line-height: 2.75em;
 				overflow: hidden;
 				padding: 0;
 				text-align: center;
@@ -3883,11 +3890,13 @@
 /* Intro */
 
 	#intro {
-		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
+        background: url("images/IntotheLight-03.jpg") no-repeat center center fixed;
+        background-color: black;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-size: cover;
 	}
 
 		#intro p {
