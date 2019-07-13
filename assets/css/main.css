@@ -1597,14 +1597,16 @@ a {
     -moz-transition: color 0.15s ease, border-bottom-color 0.15s ease;
     -webkit-transition: color 0.15s ease, border-bottom-color 0.15s ease;
     -ms-transition: color 0.15s ease, border-bottom-color 0.15s ease;
-    transition: color 0.15s ease, border-bottom-color 0.15s ease;
-    border-bottom: dotted 1px rgba(255, 255, 255, 1);
+    transition: color 0.15s ease, border-bottom-color 0.15s ease, border-top-color 0.15s ease;
+    border-bottom: dotted 4px rgba(255, 255, 255, 1);
+    border-top: dotted 4px transparent;
     color: inherit;
     text-decoration: none;
 }
 
 a:hover {
     border-bottom-color: transparent;
+    border-top-color: white;
     color: #ffffff;
 }
 
@@ -1650,12 +1652,15 @@ h6 a {
 
 h1 {
     font-size: 4.75em;
+    font-weight: 100;
+    text-shadow: 3px 3px #878D81;
 }
 
 h1.major {
     margin: 0 0 1.3em 0;
     position: relative;
     padding-bottom: 0.35em;
+
 }
 
 h1.major:after {
@@ -1686,6 +1691,9 @@ h3 {
 
 h4 {
     font-size: 1em;
+    font-weight: 600;
+    text-transform: none;
+    text-shadow: 2px 2px #878D81;
 }
 
 h5 {
@@ -1821,7 +1829,7 @@ button,
     -ms-transition: border-color 0.2s ease;
     transition: border-color 0.2s ease;
     background-color: #ffffff;
-    border: solid 4px !important;
+    border: solid 2px !important;
     border-color: rgba(255, 255, 255, 0.5) !important;
     border-radius: 3em;
     color: #878D81!important;
@@ -1829,7 +1837,7 @@ button,
     display: inline-block;
     font-size: 0.7em;
     font-weight: 700;
-    height: calc(4.75em + 4px);
+    height: calc(4.75em + 1px);
     letter-spacing: 0.25em;
     line-height: 4.75em;
     outline: 0;
@@ -1944,7 +1952,8 @@ input[type="button"]:hover,
 button:hover,
 .button:hover {
     border-color: rgba(135, 141, 129, 0.5) !important;
-    border: solid 4px !important;
+    background-color: rgba(255,255,255, 0.95);
+    border: solid 2px !important;
 }
 
 input[type="submit"]:hover:after,
@@ -2991,11 +3000,11 @@ body.is-ie .spotlights>section {
 }
 
 .spotlights>section:nth-child(2) {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 .spotlights>section:nth-child(3) {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .spotlights>section.inactive>.image:before,
@@ -3153,7 +3162,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-    background-color: #9fa8a3;
+    background-color: #878D81;
 }
 
 .wrapper.style1-alt {
@@ -3409,7 +3418,7 @@ body.is-loading .wrapper.fade>.inner {
 
 #footer>.inner .menu {
     font-size: 0.8em;
-    color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 #header+#wrapper+#footer>.inner {
@@ -3640,7 +3649,7 @@ body.is-ie #sidebar>.inner {
     color: rgba(255, 255, 255, 1);
     display: block;
     font-family: 'Source Sans Pro', serif;
-    font-size: 1em;
+    font-size: 1.15em;
     font-weight: 300;
     letter-spacing: 0.15em;
     line-height: 1.5;
@@ -3666,10 +3675,10 @@ body.is-ie #sidebar>.inner {
 }
 
 #sidebar nav a:after {
-    background-image: -moz-linear-gradient(to right, #c5d5cb, #e9ece5);
-    background-image: -webkit-linear-gradient(to right, #c5d5cb, #e9ece5);
-    background-image: -ms-linear-gradient(to right, #c5d5cb, #e9ece5);
-    background-image: linear-gradient(to right, #c5d5cb, #e9ece5);
+    background-image: -moz-linear-gradient(to right, #626b62, #626b62);
+    background-image: -webkit-linear-gradient(to right, #626b62, #626b62);
+    background-image: -ms-linear-gradient(to right, #626b62, #626b62);
+    background-image: linear-gradient(to right, #626b62, #626b62);
     -moz-transition: max-width 0.8s ease;
     -webkit-transition: max-width 0.8s ease;
     -ms-transition: max-width 0.8s ease;
@@ -3683,7 +3692,7 @@ body.is-ie #sidebar>.inner {
 
 #sidebar nav a.active {
     font-weight: 900;
-    color: #c5d5cb;
+    color: white;
 }
 
 #sidebar nav a.active:after {
