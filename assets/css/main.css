@@ -1944,6 +1944,7 @@ input[type="button"]:hover,
 button:hover,
 .button:hover {
     border-color: rgba(135, 141, 129, 0.5) !important;
+    border: solid 3px !important;
 }
 
 input[type="submit"]:hover:after,
