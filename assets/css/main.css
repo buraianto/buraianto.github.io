@@ -1824,7 +1824,7 @@ button,
     border: solid 1px !important;
     border-color: rgba(255, 255, 255, 0.5) !important;
     border-radius: 3em;
-    color: #ffffff !important;
+    color: #697162!important;
     cursor: pointer;
     display: inline-block;
     font-size: 0.7em;
@@ -2503,7 +2503,7 @@ input[type="radio"]+label:before {
 }
 
 .wrapper.style3 .icon.major:before {
-    color: #718c71;
+    color: #697162;
 }
 
 .wrapper.style3-alt .icon.major:before {
@@ -3423,7 +3423,7 @@ body.is-loading .wrapper.fade>.inner {
     border-style: solid;
     border-color: #fff;
     border-width: 1em;
-    background: #9fa8a3;
+    background: #697162;
     cursor: default;
     height: 100vh;
     left: 0;
