@@ -1822,7 +1822,7 @@ button,
     transition: border-color 0.2s ease;
     background-color: rgba(255, 255, 255, 0.9);
     border: solid 1px !important;
-    border-color: rgba(255, 255, 255, 0.5) !important;
+    border-color: #ffffff;
     border-radius: 3em;
     color: #ffffff !important;
     cursor: pointer;
