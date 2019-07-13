@@ -1943,7 +1943,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-    border-color: rgba(255, 255, 255, 0.5) !important;
+    border-color: rgba(135, 141, 129, 0.5) !important;
 }
 
 input[type="submit"]:hover:after,
