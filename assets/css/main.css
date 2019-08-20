@@ -1653,7 +1653,7 @@ h6 a {
 h1 {
     font-size: 4.75em;
     font-weight: 100;
-    text-shadow: 3px 3px #878D81;
+    /*text-shadow: 3px 3px #878D81;*/
 }
 
 h1.major {
@@ -1693,7 +1693,7 @@ h4 {
     font-size: 1em;
     font-weight: 600;
     text-transform: none;
-    text-shadow: 2px 2px #878D81;
+    /*text-shadow: 2px 2px #878D81;*/
 }
 
 h5 {
@@ -3776,13 +3776,16 @@ body.is-loading #sidebar nav ul li {
 /* Intro */
 
 #intro {
-    background: url("images/concBack.jpg") no-repeat center center fixed;
-    background-color: black;
+    /*background: url("images/concBack.jpg") no-repeat center center fixed;*/
+    background-color: #3b3a36;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-size: cover;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1em 1em 1em 0em;
 }
 
 #intro p {
