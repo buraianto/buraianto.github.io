@@ -1660,7 +1660,6 @@ h1.major {
     margin: 0 0 1.3em 0;
     position: relative;
     padding-bottom: 0.35em;
-
 }
 
 h1.major:after {
@@ -1952,7 +1951,7 @@ input[type="button"]:hover,
 button:hover,
 .button:hover {
     border-color: rgba(135, 141, 129, 0.5) !important;
-    background-color: rgba(255,255,255, 0.95);
+    background-color: rgba(255, 255, 255, 0.95);
     border: solid 2px !important;
 }
 
