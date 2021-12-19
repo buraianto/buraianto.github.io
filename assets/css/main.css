@@ -3685,7 +3685,8 @@ body.is-ie #sidebar>.inner {
 }
 
 #sidebar nav a:hover {
-    color: #c5d5cb;
+    color: #e71d36;
+    /*color: #c5d5cb;*/
 }
 
 #sidebar nav a.active {
